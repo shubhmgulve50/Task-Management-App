@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show task</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <h1>Here your task in detail</h1><br>
+    
+    <div class="taskOne">
+        <h3>Id: <%=task.id %></h3>
+        <h2 class="name">Taskname: <%= task.name %></h2>
+        <h3 class="description">Description: <%= task.description %></h3>
+    </div><br>
+    <div class="btnBox">
+        <button class="btn"><a href="http://localhost:8080/tasks">Home</button>
+    </div>
+    
+    
+
+</body>
+</html>

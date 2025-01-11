@@ -1,0 +1,88 @@
+h1{
+    color: maroon;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.task{
+    background-color: blanchedalmond;
+    padding: 1rem;
+    margin: 1rem;
+    width: 260px;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+.name{
+    color: rgb(142, 227, 62);
+}
+
+.btn{
+    appearance: none;
+    text-decoration: none;
+    background-color: rgb(204, 48, 48);
+    color: black;
+    align-self: center;
+    height: 1.5rem;
+    font-size: 0.75rem;
+    border-radius: 0.4rem;
+}
+.btnBox{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 1rem;
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+}
+
+
+/* show route */
+.taskOne{
+    width: 35%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 1rem;
+    padding-left: 2rem;
+    background-color: rgb(54, 139, 111);
+    border-radius: 1rem;
+}
+
+/* new route */
+.new{
+    margin: auto;
+    width: 30%;
+    border: 2px solid black;
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 0.5rem;
+}
+
+.btns{
+    display: flex;
+}
+
+.taskBtn{
+    margin-right: 0.5rem;
+}
+
+/* edit route */
+.Edit{
+    border: 2px solid black;
+    width: 35%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(166, 240, 240);
+}
